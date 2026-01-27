@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Local manifest made by @Renelzx and @rsuntk -->
+
+	<!-- Remote(s) -->
+	<remote name="lcl_github" fetch="https://github.com/" />
+
+	<!-- Signing key -->
+	<project path="vendor/lineage-priv/keys" name="renelzx/vendor_lineage-priv_keys" revision="main" remote="lcl_github" clone-depth="1" />
+
+	<!-- Hardware -->
+	<project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="lcl_github" revision="lineage-23.1" clone-depth="1" />
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lcl_github" revision="lineage-23.0" clone-depth="1" />
+
+	<!-- Sepolicy -->
+	<project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="lcl_github" revision="lineage-23.1" clone-depth="1" />
+
+	<!-- Kernel -->
+	<project path="device/xiaomi/emerald-kernel" name="renelz-brokenlab/android_kernel_xiaomi_emerald-kernel" remote="lcl_github" revision="lineage-22.2" clone-depth="1" />
+	<!-- Device tree -->
+	<project path="device/xiaomi/emerald" name="renelzx/android_device_xiaomi_emerald" remote="lcl_github" revision="lineage-22.2" />
+	<!-- Vendor tree -->
+	<project path="vendor/xiaomi/emerald" name="renelz-brokenlab/vendor_xiaomi_emerald" remote="lcl_github" revision="dev/lineage-22.2" clone-depth="1" />
+</manifest>
