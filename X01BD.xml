@@ -3,8 +3,6 @@
 	<remote name="lcl_github" fetch="https://github.com" />
 	<remote name="lcl_gitlab" fetch="https://gitlab.com" />
 
-	<!-- Signing Key -->
-	<project path="vendor/lineage-priv/keys" name="rsuplaygrnd/yukiprjkt_priv_keys" revision="main" remote="lcl_github" clone-depth="1" />
 	<!-- X01BD Device tree -->
 	<project path="device/asus/X01BD" name="rsuntk-asus-sdm660/android_device_asus_X01BD" revision="lineage-23.2" remote="lcl_gitlab" clone-depth="1" />
 	<!-- X01BD Vendor tree -->
