@@ -12,5 +12,5 @@
 	<!-- SDM660 Common Vendor tree -->
 	<project path="vendor/asus/sdm660-common" name="rsuntk-asus-sdm660/android_vendor_asus_sdm660-common" revision="lineage-23.2" remote="lcl_gitlab" clone-depth="1" />
 	<!-- SDM660 Common Kernel tree -->
-	<project path="kernel/asus/sdm660" name="rsuntk/android_kernel_asus_sdm660" revision="master" remote="lcl_github" clone-depth="1" clone-submodules="true" />
+	<project path="kernel/asus/sdm660" name="rsuntk/android_kernel_asus_sdm660-4.19" revision="lineage-23.2" remote="lcl_github" clone-depth="1" clone-submodules="true" />
 </manifest>
