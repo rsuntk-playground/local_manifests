@@ -4,7 +4,7 @@
 	<remote name="lcl_gitlab" fetch="https://gitlab.com" />
 
 	<!-- X01BD Device tree -->
-	<project path="device/asus/X01BD" name="rsuntk-asus-sdm660/android_device_asus_X01BD" revision="lineage-23.2" remote="lcl_gitlab" clone-depth="1" />
+	<project path="device/asus/X01BD" name="rsuntk-asus-sdm660/android_device_asus_X01BD" revision="infinity-qpr2" remote="lcl_gitlab" clone-depth="1" />
 	<!-- X01BD Vendor tree -->
 	<project path="vendor/asus/X01BD" name="rsuntk-asus-sdm660/android_vendor_asus_X01BD" revision="lineage-23.2" remote="lcl_gitlab" clone-depth="1" />
 	<!-- SDM660 Common Kernel tree -->
